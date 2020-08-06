@@ -1,0 +1,46 @@
+@charset "utf-8";
+/*
+Template Name: Educational
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+File: LoginSlider CSS
+
+Inspired By: Sliding Login Panel with jQuery from http://web-kreation.com/index.php/tutorials/nice-clean-sliding-login-panel-built-with-jquery/
+*/
+
+#topbar{ position: relative; width:50px; margin:0 0 0px 0; font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif; width:50px; overflow:hidden; color:#FFFFFF; background:url("images/tab_l.gif") bottom left no-repeat #313131;  }
+#topbar a{color:#F8F7DF; background-color:#313131; width:50px;}
+#topbar a:hover{color:#8B785F; background-color:#313131; width:50px;}
+#topbar2{ position: absolute; width:50px; margin:0 800px 800px 800px  ; font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif; width:500px;  color:#FFFFFF; background:url("images/tab_l.gif") bottom left no-repeat #313131;  }
+
+/* ----------------------------------------------Content------------------------------------- */
+#topbar .topbox{display:block;  width:5px;  padding:0  50px 0 0px;}
+#topbar .last{margin-right:0;}
+#topbar2 h1, #topbar h2, #topbar h3, #topbar h4, #topbar h5, #topbar h6{font-size:18px; padding:0 0px 0px 0; margin:0 0 0 250px }
+
+#topbar2 .topbars{display:block;  width:100%;  padding:0 50 0 300px; margin:0 0 50px 50px; }
+#topbar h1, #topbar h2, #topbar h3, #topbar h4, #topbar h5, #topbar h6{font-size:18px; padding:0 0px 0px 0; margin:0 0 0 250px }
+#topbar p{ padding:0; line-height:1.6em;}
+#topbar p.readmore{display:block; margin:0; text-align:right; line-height:normal; font-weight:bold;}
+
+/* ----------------------------------------------Forms------------------------------------- */
+
+#topbar form, #topbar fieldset, #topbar legend{margin: inherit; padding:0; border:none;}
+#topbar legend{display:none;}
+#topbar input, #topbar textarea, #topbar select{font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif;}
+#topbar label{display:block; width:50px; margin:0 0 12px 0; padding:0; margin-left:inherit}
+#topbar label input{display:block; width:262px; margin:0 0 0 5px; padding:3px; color:#333333; background-color:#F8F7DF; border:1px solid #CCCCCC;}
+#topbar .topbox p input{padding:3px 10px; color:#666666; background-color:#F7F7F7; border:1px solid #CCCCCC; cursor:pointer; margin:0}
+#topbar label input.checkbox{display:inline; width:auto; margin:0 0 0 50px; padding:0;} 
+
+/* ----------------------------------------------Tab Panel------------------------------------- */
+
+#topbar2 form, #topbar fieldset, #topbar legend{margin:0 50px 0 100px; padding:0; border:none;}
+#topbar2 legend{display:none;}
+#topbar2 input, #topbar textarea, #topbar select{font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif;}
+#topbar2 label{display:block; width:100%; margin:0 0 12px 0; padding:0; margin-left:inherit}
+#topbar2 label input{display:block; width:262px; margin:50px 0; padding:3px; color:#333333; background-color:#F8F7DF; border:1px solid #CCCCCC;}
+#topbar2 .topbox p input{padding:3px 10px; color:#666666; background-color:#F7F7F7; border:1px solid #CCCCCC; cursor:pointer;}
+#topbar2 label input.checkbox{display:inline; width:auto; margin:0 5px 0 0; padding:0;} 
